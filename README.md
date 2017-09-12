@@ -11,3 +11,7 @@ The proximal gradient updates the controller graph Laplacian via convenient use 
 
 Explanation of the files:
 - Constants.h : includes the constants needed by algorithms (stopping criteria, max # iterations, ...) as well as debugging and using flags to compile stuff in or out
+
+- main.c : runs the algorithms. For simplicity, the main assumes that the .txt folders containing the Edges (E), Laplacian (L), M and N (MN) and $\gamma$ (gamma) is in the same folder. See the IO manager to see how the files are read into memory and should be formatted. 
+
+- 
