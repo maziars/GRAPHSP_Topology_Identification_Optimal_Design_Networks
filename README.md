@@ -15,3 +15,5 @@ Explanation of the files:
 - main.c : runs the algorithms. For simplicity, the main assumes that the .txt folders containing the Edges (E), Laplacian (L), M and N (MN) and $\gamma$ (gamma) is in the same folder. See the IO manager to see how the files are read into memory and should be formatted. 
 
 - IO_manager files: read the graph information from the file
+
+- D_comp files: This file contains the main dense matrix computation routines that use BLAS routines
