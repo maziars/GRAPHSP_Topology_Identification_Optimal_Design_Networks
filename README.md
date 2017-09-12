@@ -8,6 +8,7 @@ See: http://people.ece.umn.edu/users/mihailo/software/graphsp/index.html for mor
 - the proximal Newton method.
 
 The proximal gradient updates the controller graph Laplacian via convenient use of the soft-thresholding operator. In the IP method, the Newton direction is obtained using an inexact iterative procedure based on the preconditioned conjugate gradients and, in the proximal Newton method it is computed using cyclic coordinate descent over the set of active variables. 
+This C/C++ proximal gradient implementation has been used to solve the poblem for graphs with millions of edges on single computer in minutes (see: http://www-bcf.usc.edu/~mihailo/papers/mogjovTCNS17.pdf)
 
 Explanation of the files:
 - Constants.h : includes the constants needed by algorithms (stopping criteria, max # iterations, ...) as well as debugging and using flags to compile stuff in or out
