@@ -24,3 +24,7 @@ Explanation of the files:
 
 - Proximal_solver: it contains two implementations of proximal gradien method with BB step size. The first one, PROX1 uses customized sparse implementation. The second one, PROX2 does not use the sparse implementations. The sparse implementation still uses BLAS routines and does not use sparse versions.
 
+-SparseTools: A simple implementation of sparse class using iterators. Note that we still use the BLAS methods for dense matrices to do linear algebra for sparse vectors using customized wrappers.
+
+
+
