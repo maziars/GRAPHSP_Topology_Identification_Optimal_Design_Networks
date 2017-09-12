@@ -11,9 +11,11 @@ The proximal gradient updates the controller graph Laplacian via convenient use 
 This C/C++ proximal gradient implementation has been used to solve the poblem for graphs with millions of edges on single computer in minutes (see: http://www-bcf.usc.edu/~mihailo/papers/mogjovTCNS17.pdf)
 
 Explanation of the files:
+- Matrix_save.m: this is a Matlab file that saves the info of the graph into the txt files such that it could be used by the C/C++ code
+
 - Constants.h : includes the constants needed by algorithms (stopping criteria, max # iterations, ...) as well as debugging and using flags to compile stuff in or out
 
-- main.c : runs the algorithms. For simplicity, the main assumes that the .txt folders containing the Edges (E), Laplacian (L), M and N (MN) and $\gamma$ (gamma) is in the same folder. See the IO manager to see how the files are read into memory and should be formatted. 
+- main.c : runs the algorithms. For simplicity, the main assumes that the .txt folders containing the Edges (E), Laplacian (L), M and N (MN) and $\gamma$ (gamma) is in the same folder. See the matlab save_matrix.m file to see how the files are read into memory and should be formatted. 
 
 - IO_manager files: read the graph information from the file
 
