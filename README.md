@@ -1,4 +1,4 @@
-# Topology_Identification_Optimal_Design_Networks
+# Topology Identification and Optimal Design of Noisy Networks
 This is a Memory and Cache Efficient C/C++ Implementation of Customized Algorithms for Topology Identification and Optimal Design of Noisy Networks. It uses the compiled Frotran BLAS binary files to improve the speed of the linear algebraic computations. So, if you want to use this code you need to build the BLAS package for the CPU architecture you use and link the binary files in the project.
 
 See: http://people.ece.umn.edu/users/mihailo/software/graphsp/index.html for more details on the problem formulation and the methods. The code implemets three different methods for finding the topology identification and optimal design of undirected consensus networks with additive stochastic disturbances (see this paper for details: http://www-bcf.usc.edu/~mihailo/papers/mogjovTCNS17.pdf):
