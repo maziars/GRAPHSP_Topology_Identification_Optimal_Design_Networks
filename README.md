@@ -19,3 +19,5 @@ Explanation of the files:
 - D_comp: This file contains the main dense matrix computation routines that use BLAS routines
 
 - PCG_Solver: Contains the diagonaly preconditioned conjugate gradient method for finding the Newtone step in IP
+
+- IP_solver: Contains the routin for doing interior point method
