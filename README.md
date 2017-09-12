@@ -16,4 +16,6 @@ Explanation of the files:
 
 - IO_manager files: read the graph information from the file
 
-- D_comp files: This file contains the main dense matrix computation routines that use BLAS routines
+- D_comp: This file contains the main dense matrix computation routines that use BLAS routines
+
+- PCG_Solver: Contains the diagonaly preconditioned conjugate gradient method for finding the Newtone step in IP
