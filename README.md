@@ -26,5 +26,7 @@ Explanation of the files:
 
 -SparseTools: A simple implementation of sparse class using iterators. Note that we still use the BLAS methods for dense matrices to do linear algebra for sparse vectors using customized wrappers.
 
+- QuadCD: contains the implementations of Newton Proximal method with backtracking for step-size selection. It uses Coordinate descent with active set implementation to find the Newton direction.
+
 
 
