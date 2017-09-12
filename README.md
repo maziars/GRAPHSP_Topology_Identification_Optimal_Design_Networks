@@ -21,3 +21,6 @@ Explanation of the files:
 - PCG_Solver: Contains the diagonaly preconditioned conjugate gradient method for finding the Newtone step in IP
 
 - IP_solver: Contains the routin for doing interior point method
+
+- Proximal_solver: it contains two implementations of proximal gradien method with BB step size. The first one, PROX1 uses customized sparse implementation. The second one, PROX2 does not use the sparse implementations. The sparse implementation still uses BLAS routines and does not use sparse versions.
+
